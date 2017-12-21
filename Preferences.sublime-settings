@@ -1,40 +1,18 @@
 {
-	"added_words":
-	[
-		"Lindenmayer",
-		"Parallelizing",
-		"parallelization",
-		"boreal",
-		"parallelizing",
-		"affine"
-	],
 	"always_show_minimap_viewport": true,
 	"color_scheme": "Packages/User/SublimeLinter/MonokaiGray (SL).tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
-	"font_size": 18,
-	"highlight_color_blue": true,
+	"font_size": 16,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Anaconda",
-		"Cisco Syntax Highlighter",
-		"Emacs-like Modelines",
-		"Emmet",
-		"FTPSync",
-		"Gutter Themes for SL",
-		"Jedi - Python autocompletion",
 		"JSLint",
-		"LaTeXing",
-		"Spotify",
 		"Vintage"
 	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"material_theme_accent_orange": true,
+	"material_theme_accent_tomato": true,
+	"material_theme_bright_scrollbars": true,
 	"material_theme_compact_sidebar": true,
+	"material_theme_contrast_mode": true,
 	"material_theme_panel_separator": true,
 	"material_theme_small_statusbar": true,
 	"material_theme_tabs_separator": true,
@@ -44,5 +22,6 @@
 	"tab_size": 4,
 	"tabs_medium": true,
 	"theme": "Material-Theme-Darker.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }

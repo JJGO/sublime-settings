@@ -1,6 +1,0 @@
-{
-    "path": "/Users/JoseJavier/anaconda/envs/py3/bin/python",
-    "cmd": ["python", "-u", "$file"],
-    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
-    "selector": "source.python"
-}
