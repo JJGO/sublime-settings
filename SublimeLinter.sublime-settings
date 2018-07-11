@@ -1,17 +1,16 @@
+// SublimeLinter Settings - User
 {
-    "user": {
-        "debug": false,
-        "delay": 0.25,
-        "error_color": "D02000",
-        "gutter_theme": "Packages/Material Theme/extras/SublimeLinter/Material-Theme.gutter-theme",
-        "gutter_theme_excludes": [],
-        "lint_mode": "background",
-        "linters": {
+    "gutter_theme": "Packages/Material Theme/extras/SublimeLinter/Material-Theme.gutter-theme",
+
+    "linters": {
             "annotations": {
-                "@disable": false,
+                "disable": false,
                 "args": [],
                 "errors": [
-                    "FIXME"
+                    "FIXME",
+                    "Your code here",
+                    "Your data here",
+                    "You will"
                 ],
                 "excludes": [],
                 "warnings": [
@@ -24,74 +23,38 @@
                 ]
             },
             "flake8": {
-                "@disable": false,
-                "args": [],
-                "builtins": "",
+                // "executable": "/Users/josejavier/.pyenv/shims/flake8",
+                "disable": false,
+                "args": [
+                "--max-complexity", "-1",
+                "--max-line-length", "300",
+                "--ignore", "E221,E241,E272,E226",
+            ],
                 "excludes": [],
-                "executable": "",
-                "ignore": "",
-                "jobs": "",
-                "max-complexity": -1,
-                "max-line-length": 300,
-                "select": "",
-                "show-code": false
             },
-            "pep8": {
-                "@disable": false,
-                "args": [],
-                "excludes": [],
-                "ignore": "E221,E241,E272,E226",
-                "max-line-length": 300,
-                "select": ""
-            },
-            "pyflakes": {
-                "@disable": true,
+            "golint": {
+                "disable": false,
                 "args": [],
                 "excludes": []
             },
-            "pylint": {
-                "@disable": true,
+            "pep8": {
+                // "executable": "/Users/josejavier/.pyenv/shims/pep8",
+                "disable": true,
                 "args": [],
-                "disable": "",
-                "enable": "",
                 "excludes": [],
-                "paths": [],
-                "rcfile": "",
-                "show-codes": false
-            }
+                "select": ""
+            },
+            "pyflakes": {
+                // "executable": "/Users/josejavier/.pyenv/shims/pyflakes",
+                "disable": true,
+                "args": [],
+                "excludes": []
+            },
         },
-        "mark_style": "outline",
-        "no_column_highlights_line": false,
-        "passive_warnings": false,
-        "paths": {
-            "linux": [],
-            "osx": [],
-            "windows": []
-        },
-        "python_paths": {
-            "linux": [],
-            "osx": [],
-            "windows": []
-        },
-        "rc_search_limit": 3,
-        "shell_timeout": 10,
-        "show_errors_on_save": false,
-        "show_marks_in_minimap": true,
-        "syntax_map": {
-            "html (django)": "html",
-            "html (rails)": "html",
-            "html 5": "html",
-            "javascript (babel)": "javascript",
-            "magicpython": "python",
-            "php": "html",
-            "python django": "python",
-            "pythonimproved": "python"
-        },
-        "tooltip_fontsize": "1rem",
-        "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
-        "tooltip_theme_excludes": [],
-        "tooltips": false,
-        "warning_color": "DDB700",
-        "wrap_find": true
+
+    "paths": {
+        "linux": [],
+        "osx": ["/Users/josejavier/.pyenv/shims"],
+        "windows": []
     }
 }
