@@ -2,9 +2,8 @@
 	"always_show_minimap_viewport": true,
 	"color_scheme": "Packages/User/SublimeLinter/MonokaiGray (SL).tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
-	// "font_face": "Meslo LG M DZ for Powerline",
 	"font_options": "dlig",
-	"font_size": 19,
+	"font_size": 21,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -15,7 +14,8 @@
 		"Rainbowth",
 		"SFTP",
 		"SublimeLinter-pylint",
-		"Vintage"
+		"Vintage",
+		"Rust"
 	],
 	"material_theme_accent_tomato": true,
 	"material_theme_bright_scrollbars": true,
