@@ -1,19 +1,20 @@
 {
+	"added_words":
+	[
+		"overfitting",
+		"convolutional",
+		"autoencoder"
+	],
 	"always_show_minimap_viewport": true,
 	"color_scheme": "Packages/User/SublimeLinter/MonokaiGray (SL).tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"font_options": "dlig",
-	"font_size": 20,
+	"font_size": 21,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"distractionless",
-		"DocBlockr",
-		"Jedi - Python autocompletion",
 		"JSLint",
-		"Rainbowth",
 		"Rust",
-		"SFTP",
 		"SublimeLinter-pylint",
 		"Vintage"
 	],

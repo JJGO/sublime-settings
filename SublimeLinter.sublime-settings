@@ -50,6 +50,9 @@
                 "args": [],
                 "excludes": []
             },
+            "writegood": {
+                "disable": false
+            }
         },
 
     "paths": {
