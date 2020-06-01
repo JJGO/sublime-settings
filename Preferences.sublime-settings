@@ -3,30 +3,40 @@
 	[
 		"overfitting",
 		"convolutional",
-		"autoencoder"
+		"autoencoder",
+		"Thrasymachus",
+		"Facebook"
+	],
+	"additional_path_items":
+	[
+		"/Users/josejavier/_opam/bin"
 	],
 	"always_show_minimap_viewport": true,
-	"color_scheme": "Packages/User/SublimeLinter/MonokaiGray (SL).tmTheme",
+	"color_scheme": "Packages/Theme - Gravity/Monokai Gravity.tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"font_options": "dlig",
-	"font_size": 21,
+	"font_size": 17,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"JSLint",
 		"Rust",
-		"SublimeLinter-pylint",
 		"Vintage"
 	],
+	"material_theme_accent_orange": true,
 	"material_theme_accent_tomato": true,
+	"material_theme_big_fileicons": true,
 	"material_theme_bright_scrollbars": true,
 	"material_theme_compact_sidebar": true,
 	"material_theme_contrast_mode": true,
+	"material_theme_disable_folder_animation": true,
 	"material_theme_panel_separator": true,
 	"material_theme_small_statusbar": true,
 	"material_theme_tabs_separator": true,
+	"material_theme_titlebar": true,
 	"overlay_scroll_bars": "enabled",
 	"show_encoding": true,
+	"show_vcs_status_badges": false,
 	"status_bar_brighter": true,
 	"tab_size": 4,
 	"tabs_medium": true,

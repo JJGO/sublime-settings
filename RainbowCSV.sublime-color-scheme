@@ -1,17 +1,17 @@
 {
     "globals": {
-        "active_guide": "#774615", 
-        "background": "#252525", 
+        "active_guide": "#6b8595", 
+        "background": "#2b2b2b", 
         "bracket_contents_options": "underline", 
-        "caret": "#f8f8f8", 
+        "caret": "#6eadd5", 
         "find_highlight": "#ffe792", 
         "find_highlight_foreground": "#000000", 
-        "foreground": "#f8f8f8", 
-        "invisibles": "#3a3a3a", 
-        "line_highlight": "#343434", 
+        "foreground": "#dddddd", 
+        "invisibles": "#3e3e3e", 
+        "line_highlight": "#3d3d3d", 
         "misspelling": "#ff0000", 
-        "selection": "#3c3c3c", 
-        "selection_border": "#222222", 
+        "selection": "#444444", 
+        "selection_border": "#656565", 
         "tags_options": "stippled_underline"
     }, 
     "rules": [

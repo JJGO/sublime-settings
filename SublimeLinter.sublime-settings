@@ -23,14 +23,14 @@
                 ]
             },
             "flake8": {
-                // "executable": "/Users/josejavier/.pyenv/shims/flake8",
+                "executable": "/Users/josejavier/.pyenv/shims/flake8",
                 "disable": false,
                 "args": [
                 "--max-complexity", "-1",
                 "--max-line-length", "300",
-                "--ignore", "E221,E241,E272,E226",
+                "--ignore", "E221,E241,E272,E226"
             ],
-                "excludes": [],
+                "excludes": []
             },
             "golint": {
                 "disable": false,
@@ -45,12 +45,23 @@
                 "select": ""
             },
             "pyflakes": {
-                // "executable": "/Users/josejavier/.pyenv/shims/pyflakes",
+                "executable": "/Users/josejavier/.pyenv/shims/pyflakes",
                 "disable": true,
                 "args": [],
                 "excludes": []
             },
             "writegood": {
+                "disable": true
+            },
+            "pylint": {
+                "executable": "/Users/josejavier/.pyenv/shims/pylint",
+                "disable": true,
+                "args": [
+                    "-d", "C0103"
+                ]
+            },
+            "ansible-lint": {
+                "executable": "/Users/josejavier/.pyenv/shims/ansible-lint",
                 "disable": false
             }
         },
